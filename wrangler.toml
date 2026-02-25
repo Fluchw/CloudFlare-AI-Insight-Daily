@@ -12,7 +12,7 @@ workers_dev = true                      # 是否启用 workers.dev 子域预览
 # 或通过命令行创建: wrangler kv namespace create "DATA_KV"
 # ============================================================
 kv_namespaces = [
-  { binding = "DATA_KV", id = "你的KV命名空间ID" }
+  { binding = "DATA_KV", id = "b32296644171443cb60c785cf1581936" }
 ]
 
 [vars]
@@ -23,7 +23,7 @@ kv_namespaces = [
 
 # 后台管理页面的登录凭据
 LOGIN_USERNAME = "root"
-LOGIN_PASSWORD = "toor"
+LOGIN_PASSWORD = "root"
 
 # ============================================================
 # 🔴 必填项 - AI 模型配置
@@ -35,8 +35,8 @@ USE_MODEL_PLATFORM = "GEMINI"
 OPEN_TRANSLATE = "true"
 
 # Gemini 配置（USE_MODEL_PLATFORM = "GEMINI" 时必填）
-GEMINI_API_KEY = "你的Gemini API密钥"
-GEMINI_API_URL = "https://generativelanguage.googleapis.com"  # Gemini API 地址，可替换为代理地址
+GEMINI_API_KEY = "sk-"
+GEMINI_API_URL = "https://4sapi.com"  # Gemini API 地址，可替换为代理地址
 DEFAULT_GEMINI_MODEL = "gemini-3-pro-preview"       # Gemini 模型名称
 
 # OpenAI 兼容 API 配置（USE_MODEL_PLATFORM = "OPEN" 时必填）
@@ -50,7 +50,7 @@ DEFAULT_OPEN_MODEL = "deepseek-chat"        # 模型名称
 # ============================================================
 
 GITHUB_TOKEN = "github_pat_xxxxxx"              # GitHub Personal Access Token（需 repo 权限）
-GITHUB_REPO_OWNER = "你的GitHub用户名"           # 仓库所有者
+GITHUB_REPO_OWNER = "fluchw"           # 仓库所有者
 GITHUB_REPO_NAME = "CloudFlare-AI-Insight-Daily" # 仓库名称
 GITHUB_BRANCH = "main"                          # 目标分支
 

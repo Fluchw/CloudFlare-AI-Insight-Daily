@@ -47,14 +47,14 @@ wrangler login
 在 Cloudflare 控制台 → `Workers 和 Pages` → `KV` 中创建命名空间，或通过命令行：
 
 ```bash
-wrangler kv namespace create "NEWS_DATA_KV"
+wrangler kv namespace create "DATA_KV"
 ```
 
 记录返回的 `id`，填入 `wrangler.toml`：
 
 ```toml
 kv_namespaces = [
-  { binding = "NEWS_DATA_KV", id = "你的KV命名空间ID" }
+  { binding = "DATA_KV", id = "你的KV命名空间ID" }
 ]
 ```
 
