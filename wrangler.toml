@@ -1,7 +1,7 @@
 # wrangler.toml 配置示例
 # 复制此文件为 wrangler.toml 并填写实际值
 
-name = "ai-daily"                       # Worker 项目名称
+name = "ai-news"                       # Worker 项目名称
 main = "src/index.js"                   # Worker 入口文件
 compatibility_date = "2025-05-20"       # 兼容性日期
 workers_dev = true                      # 是否启用 workers.dev 子域预览
